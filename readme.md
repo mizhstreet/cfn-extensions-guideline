@@ -1,6 +1,6 @@
 # Hướng dẫn cài các extension cloudformation và cấu hình cho Visual Studio Code
 
-Các extension và cấu hình chỉ áp dụng cho file yaml, không áp dụng cho file json.
+Các extension và cấu hình áp dụng cho cả file json và yaml
 
 ## Table of Contents
 
