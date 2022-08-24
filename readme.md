@@ -1,15 +1,17 @@
-# Hướng dẫn cài các extension cloudformation và config cho Visual Studio Code
+# Hướng dẫn cài các extension cloudformation và cấu hình cho Visual Studio Code
+
+Các extension và cấu hình chỉ áp dụng cho file yaml, không áp dụng cho file json.
 
 ## Table of Contents
 
 - [Cài extension](#cài-extension)
-  [1. YAML by red hat](#1-yaml)
-  [2. CloudFormation by aws-scripting-guide](#2-cloudformation)
-  [3. Prettier by prettier](#install-and-deploy-backend-from-sources)
+  - [YAML](#1-yaml)
+  - [CloudFormation](#2-cloudformation)
+  - [Prettier](#3-prettier)
 - [Cấu hình setting extension](#cấu-hình-setting-extension)
-  [1. Mở file setting.json](#1-mở-file-settingjson)
-  [2. Cấu hình setting](#2-cấu-hình)
-  [3. Done](#3-done)
+  - [Mở file settings.json](#1-mở-file-settingjson)
+  - [Cấu hình setting](#2-cấu-hình)
+  - [Done](#3-done)
 
 ## Cài extension
 
@@ -27,23 +29,23 @@ Vào phần extension của Visual Studio Code và cài các extension dưới �
 
 ![](img/prettier.png)
 
-### Cấu hình setting extension
+## Cấu hình setting extension
 
-Mở Visual Studio Code và thực hiện như các bước bên dưới
+Mở Visual Studio Code và thực hiện như các bước bên dưới:
 
-#### 1. Mở file setting.json
+#### 1. Mở file settings.json
 
-Nhấn Ctrl + Shift + P, tìm kiếm `setting` và chọn như sau:
+Nhấn Ctrl + Shift + P, tìm kiếm `setting` và chọn như sau
 ![](img/settingjson.png)
 
-Thấy cửa sổ file setting.json mở ra là ok
+Thấy cửa sổ file settings.json mở ra là ok
 ![](img/settingfile.png)
 
 #### 2. Cấu hình
 
-###### 2.1. Cấu hình yaml hỗ trợ các tag của CloudFormation
+##### 2.1. Cấu hình yaml hỗ trợ các tag của CloudFormation
 
-Thêm đoạn json sau vào file setting.json
+Thêm đoạn json sau vào file settings.json
 
 ```json
   "yaml.schemaStore.enable": false,
@@ -70,9 +72,9 @@ Thêm đoạn json sau vào file setting.json
   ],
 ```
 
-###### 2.2. Tự động format code bằng prettier khi save file
+##### 2.2. Tự động format code bằng prettier khi save file
 
-Thêm đoạn json sau vào file setting.json (nếu đã có rồi thì bỏ qua)
+Thêm đoạn json sau vào file settings.json (nếu đã có rồi thì bỏ qua)
 
 ```json
 "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -82,4 +84,4 @@ Thêm đoạn json sau vào file setting.json (nếu đã có rồi thì bỏ qu
 
 #### 3. Done
 
-Sau khi thực hiện các bước trên, lưu file setting.json và khởi động lại Visual Studio Code.
+Sau khi thực hiện các bước trên, lưu file settings.json và khởi động lại Visual Studio Code.
