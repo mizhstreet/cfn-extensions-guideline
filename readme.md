@@ -19,15 +19,23 @@ Vào phần extension của Visual Studio Code và cài các extension dưới �
 
 ### 1. Yaml
 
+Extension hỗ trợ cú pháp cho file yaml.
 ![](img/yaml.png)
 
 ### 2. CloudFormation
 
+Snippet hỗ trợ code CloudFormation.
 ![](img/cfn.png)
 
 ### 3. Prettier
 
+Extension dùng để format làm đẹp code.
 ![](img/prettier.png)
+
+### 4. Blockman
+
+Extension dùng để đánh dấu highlight codeblock cho dễ nhìn.
+![](img/blockman.png)
 
 ## Cấu hình setting extension
 
