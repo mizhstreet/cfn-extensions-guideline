@@ -8,6 +8,8 @@ Các extension và cấu hình áp dụng cho cả file json và yaml
   - [YAML](#1-yaml)
   - [CloudFormation](#2-cloudformation)
   - [Prettier](#3-prettier)
+  - [Block highlighting](#4-block-highlighting)
+  - [Cloudformation Lint](#5-cloudformation-lint)
 - [Cấu hình setting extension](#cấu-hình-setting-extension)
   - [Mở file settings.json](#1-mở-file-settingjson)
   - [Cấu hình setting](#2-cấu-hình)
@@ -32,10 +34,31 @@ Snippet hỗ trợ code CloudFormation.
 Extension dùng để format làm đẹp code.
 ![](img/prettier.png)
 
-### 4. Blockman
+### 4. Block highlighting
 
-Extension dùng để đánh dấu highlight codeblock cho dễ nhìn.
-![](img/blockman.png)
+Có thể sử dụng blockman hoặc rainbown indent tuỳ sở thích
+
+1. Blockman
+   ![](img/blockman.png)
+   ![](img/blockman-2.png)
+
+2. Indent rainbow
+   ![](img/rainbow.png)
+   ![](img/rainbow-2.png)
+
+### 5. Cloudformation Lint
+
+![](img/cfnlint.png)
+Sau khi cài đặt xong CFN Lint cần thực hiện các step sau
+
+- Cài python và pip : [Link](https://www.python.org/)
+- Cài commandline cho cfn lint
+
+```shell
+pip install cfn-lint
+```
+
+- Khởi động lại VScode
 
 ## Cấu hình setting extension
 
